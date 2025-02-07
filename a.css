@@ -1,0 +1,30 @@
+/* اضافه کردن پس‌زمینه به کل صفحه */
+body {
+    background-image: url('20_8000x5200_10m.jpg'); /* مسیر تصویر را اینجا قرار دهید */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* برای خوانایی بیشتر متن */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* برای محتوای اصلی */
+  .content {
+    background-color: rgba(0, 0, 0, 0.5); /* پس‌زمینه نیمه شفاف */
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  /* استایل برای header و footer */
+  header, footer {
+    background-color: rgba(0, 0, 0, 0.7); /* پس‌زمینه تاریک‌تر برای header و footer */
+    color: white;
+    padding: 10px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
